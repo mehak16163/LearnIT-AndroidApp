@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehak.moreless.search">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Enter Product Name"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/s1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="Get Data"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="127dp"
+        android:layout_height="34dp"
+        android:layout_above="@+id/s2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="126dp"
+        android:layout_height="33dp"
+        android:layout_above="@+id/p3"
+        android:layout_alignEnd="@+id/s1"
+        android:layout_alignLeft="@+id/s1"
+        android:layout_alignRight="@+id/s1"
+        android:layout_alignStart="@+id/s1"
+        android:layout_marginBottom="11dp"
+        android:textSize="19sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="131dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/p3"
+        android:layout_alignLeft="@+id/s2"
+        android:layout_alignStart="@+id/s2"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="122dp"
+        android:layout_height="31dp"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_below="@+id/data"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="115dp"
+        android:layout_height="32dp"
+        android:layout_alignEnd="@+id/p1"
+        android:layout_alignLeft="@+id/p1"
+        android:layout_alignRight="@+id/p1"
+        android:layout_alignStart="@+id/p1"
+        android:layout_alignTop="@+id/s2"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="112dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/p2"
+        android:layout_alignLeft="@+id/p2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/p2"
+        android:layout_alignStart="@+id/p2"
+        android:layout_marginBottom="31dp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
